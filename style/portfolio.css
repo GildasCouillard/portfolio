@@ -1,0 +1,70 @@
+.date {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.logo-calendrier {
+    height: 50px;
+    padding-right: 20px;
+
+    
+}
+
+h2 {
+    text-align: left;
+}
+
+main {
+    padding-left: 96px;
+    padding-right: 96px;
+    margin-left: 42.5px;
+    margin-right: 42.5px;
+}
+
+.description {
+    display: flex;
+    margin-top: 56px;
+    gap: 2.5rem;
+    justify-content: space-between;
+}
+
+
+
+.language-tools {
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.language-tools-1 p {
+    margin-bottom: 8px;
+    color: #A5B4FC;
+}
+.language-tools-2 {
+    margin-bottom: 28px;
+    font-size: 0.8em;
+}
+
+.text-description {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-top: 0%;
+    margin-bottom: 28px;
+}
+
+.language-tools-3 p {
+    color: #A5B4FC;
+}
+
+  

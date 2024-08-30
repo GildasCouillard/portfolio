@@ -1,0 +1,16 @@
+.entreprise-conteneur {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+.spie {
+    width: 100px;
+    border-radius: 1em;
+}

@@ -1,0 +1,168 @@
+body {
+    background-color: #1F2039;
+    font-size: 1em;
+    color: white;
+    font-family: 'Manrope', 'sans-serif';
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-family: 'Montserrat', 'sans-serif';
+    color: #A5B4FC;
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Montserrat', 'sans-serif';
+    color: #A5B4FC;
+}
+
+header,
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+a:hover {
+    color: #A5B4FC;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.footer-conteneur {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    gap: 5em;
+    margin-top: 3%;
+}
+
+h3 {
+    width: 50%;
+    text-align: center;
+    border-top: 3px #A5B4FC solid;
+    padding-top: 20px;
+    font-size: 2em;
+    margin: auto;
+}
+
+
+.linkedin {
+    width: 50px;
+    border-radius: 1em;
+}
+
+.github {
+    width: 50px;
+    border-radius: 1em;
+}
+
+.box-une:hover {
+    background-color: #A5B4FC;
+}
+
+.box-deux:hover {
+    background-color: #A5B4FC;
+}
+
+
+/* Sidenav menu */
+.sidenav {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -70%;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+    background-color: #A5B4FC;
+}
+  
+/* Sidenav menu links */
+.sidenav a {
+    padding: 40px 30px 40px 32px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Manrope', 'sans-serif';
+    font-size: 4em;
+    color: #1F2039;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #111;
+}
+  
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+/* Active class */
+.sidenav.active {
+    left: 0;
+}
+  
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width: 996px) {
+    nav {
+        justify-content: space-around;
+    }
+    
+    header nav img {
+        margin-bottom: 20px;
+      }
+    
+    .navigation {
+        display: none;
+    }
+
+    .burger-icon span {
+        display: block;
+        text-align: center;
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+      }
+    
+    
+}
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mon Portfolio</title>
+    <link href="style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/projets.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo_gc.png" type="images/png">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="lien-icone">
+                <img src="images/logo_gc.png" alt="logo GC">
+            </a>
+            <a href="index.html" class="navigation">Accueil</a>
+            <a href="projets.html" class="navigation">Mes Projets</a>
+            <a href="entreprise.html" class="navigation">Mon Entreprise</a>
+            <a href="contact.html" class="navigation">Me Contacter</a>
+
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+            </a>
+
+        </nav>
+
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close"><b>x</b></a>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="projets.html">Mes Projets</a></li>
+              <li><a href="entreprise.html">Mon Entreprise</a></li>
+              <li><a href="contact.html">Me Contacter</a></li>
+            </ul>
+        </div>
+        
+        
+        <script src="javascript/hamburger.js"></script>
+    </header>
+
+    <main>
+        <section class="mes-projets">
+            <h2>Mes Projets :</h2>
+            <div class="grid-projets">
+                <a href="portfolio.html" class="lien-conteneur-projets">
+                    <img src="images/porfolio.jpg" alt="porfolio">
+                    <div class="projets-hover">Front-end</div>
+                </a>
+                <a href="index.html" class="lien-conteneur-projets">
+                    <img src="images/sablier.jpg" alt="sablier">
+                    <div class="projets-hover">A venir</div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Où me suivre</h3>
+            <div class="footer-conteneur">
+                <div class="box-une">
+                    <a target="_blank" href="https://www.linkedin.com/in/gildas-couillard-74565a239/">
+                        <img src="images/logo_linkedin.png" alt="linkedin" title="linkedin" class="linkedin">
+                    </a>
+                </div>
+                <div class="box-deux">
+                    <a target="_blank" href="https://github.com/GildasCouillard">
+                        <img src="images/logo_github.png" alt="github" title="github" class="github">
+                    </a>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>
